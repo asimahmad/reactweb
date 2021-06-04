@@ -480,9 +480,9 @@ nav ul li {
     }
 }
 
-@media(max-width:1200px) {
+@media(max-width:1500px) {
     .services {
-        grid-template-columns: auto;
+        grid-template-columns: auto auto auto;
         height: auto;
         justify-content: center;
     }
@@ -497,7 +497,7 @@ nav ul li {
         word-wrap: break-word;
     }
     .font-icon-serv {
-        size: 15rem;
+        size: 12rem;
     }
 }
 
