@@ -768,7 +768,7 @@ input[type=text],
     }
 }
 
-@media(max-width:900px) {
+@media(max-width:1200px) {
     .footer {
         display: flex;
         justify-content: center;
