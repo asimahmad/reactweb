@@ -727,6 +727,7 @@ input[type=text],
     background-color: rgb(27, 27, 27);
     grid-template-columns: auto auto auto;
     text-align: center;
+    height: auto;
 }
 
 .footer div {
