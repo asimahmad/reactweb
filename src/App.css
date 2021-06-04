@@ -768,11 +768,8 @@ input[type=text],
     }
 }
 
-@media(max-width:1200px) {
+@media(max-width:1300px) {
     .footer {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
         height: 100vh;
     }
 }
