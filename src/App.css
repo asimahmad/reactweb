@@ -770,6 +770,6 @@ input[type=text],
 
 @media(max-width:1300px) {
     .footer {
-        height: 40vh;
+        height: 30vh;
     }
 }
