@@ -422,6 +422,16 @@ nav ul li {
     }
 }
 
+@media(max-width:1200px) {
+    .work {
+        height: 100rem;
+        margin: 0;
+    }
+    .work video {
+        width: 400px;
+    }
+}
+
 .services {
     margin: 0;
     display: grid;
@@ -450,6 +460,27 @@ nav ul li {
 }
 
 @media(max-width:760px) {
+    .services {
+        grid-template-columns: auto;
+        height: auto;
+        justify-content: center;
+    }
+    .serv p {
+        width: 10rem;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    .serv h5 {
+        font-size: 2rem;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    .font-icon-serv {
+        size: 15rem;
+    }
+}
+
+@media(max-width:1200px) {
     .services {
         grid-template-columns: auto;
         height: auto;
