@@ -728,6 +728,7 @@ input[type=text],
     grid-template-columns: auto auto auto;
     text-align: center;
     height: auto;
+    /*  just remove this and uncomment height in media queries for footer*/
 }
 
 .footer div {
@@ -765,13 +766,12 @@ input[type=text],
         display: flex;
         justify-content: center;
         flex-direction: column;
-        /* height: 80vh; */
+        height: 80vh;
     }
 }
 
-
-/* @media(max-width:1300px) {
+@media(max-width:1300px) {
     .footer {
-        height: 30vh;
+        height: 40vh;
     }
-} */
+}
