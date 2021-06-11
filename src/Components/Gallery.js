@@ -11,7 +11,7 @@ function Gallery(props) {
         document.title = 'Assesment by Asim'
         axios.get('https://api.unsplash.com/photos',{
             params:{
-                client_id: 'yKB-y6-XmYFsrWnOtpCuPaKj8iZe-Lj_HvFZh5hQe8I',
+                client_id: 'Client_ID',
                 query: 'london'
             }
         })
